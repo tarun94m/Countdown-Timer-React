@@ -1,0 +1,25 @@
+.timer{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputfield{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn-start{
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 60px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+
