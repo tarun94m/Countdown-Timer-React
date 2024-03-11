@@ -44,6 +44,7 @@ const Timer = () => {
     }
 
     return (
+        <>
         { ticker == null ?
             <div className="timer">
                 <input className="inputFields" onChange={(e) => setHh(parseInt(e.target.value))} placeholder="hh" /><span>:</span>
@@ -57,6 +58,7 @@ const Timer = () => {
                 <button onClick={handleReset}>Reset</button>
             </div> 
         }
+        </>
     )
 }
 
